@@ -1,15 +1,39 @@
 .masthead {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
 }
 .masthead__menu-and-search {
   grid-column-start: 1;
   grid-row-start: 1;
-  grid-template-areas: ;
+
 }
 
-/* .masthead__actions {}
-.masthead__technologies {}
-.masthead__date {}
-.masthead__logo {}
-.masthead__paper {} */
+.masthead__actions {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+.masthead__technologies {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.masthead__date {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+.masthead__logo {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+.masthead__paper {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+ .masthead__btn-icon {
+   font-size: 11px;
+   padding: 7px 9px;
+
+ }
+ .masthead__btn-icon:hover{
+   background-color: #f7f7f5;;
+ }
