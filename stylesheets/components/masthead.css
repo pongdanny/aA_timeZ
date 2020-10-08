@@ -1,0 +1,15 @@
+.masthead {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.masthead__menu-and-search {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-template-areas: ;
+}
+
+/* .masthead__actions {}
+.masthead__technologies {}
+.masthead__date {}
+.masthead__logo {}
+.masthead__paper {} */
